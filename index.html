@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">       
+    <link rel="stylesheet" href="css/style.css">
+    
+	<title>MiNX Movie Nominations</title>
+	</head>
+	<body>
+        
+        <!-- Title  -->
+        <div class="banner" id="alert"></div> 
+        <div class="h1">MiNX Movie Nomination</div>
+        <!-- Search bar -->
+        <div class="p1">Search movie here: </div>
+        <div class="search">
+            <input type="text" id="search" name="search" placeholder="Search Movies">
+            <button type="submit" onclick="movieSearch()">search</button>
+        </div>
+        
+        
+        <div class="container">
+            <div id="movies"></div>
+            <div id="nominate"></div>
+        </div>
+        
+		<script src="js/client.js"></script>
+	</body>
+</html>
